@@ -1,0 +1,19 @@
+Verification date: 2026-09-28
+Lean (version 4.19.0, x86_64-unknown-linux-gnu, commit 6caaee842e94, Release)
+Mathlib commit: c44e0c8ee63ca166450922a373c7409c5d26b00b
+HallMarriage.lean SHA-256: 02f695ce88107ba9bba1cb670239829076c425c20834bcd0822ba993ea7215f4
+
+The source was checked from the pinned mathlib checkout using:
+  lake env lean ../HallsMarriageLean/HallMarriage.lean
+
+Exit code: 0
+Compiler output:
+'HallProof.hall_marriage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HallProof.hall_bipartite' depends on axioms: [propext, Classical.choice, Quot.sound]
+
+No compiler errors or warnings. No sorryAx dependency. No project-specific axioms.
+
+Execution note: this Linux container required a readlink compatibility shim
+for executable discovery. It translates /proc/<own-pid>/exe to /proc/self/exe.
+It does not modify the Lean executable, proof kernel, tactics, or theorem source.
+Ordinary local Lean installations should not need that shim.
